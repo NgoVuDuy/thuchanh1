@@ -1,0 +1,39 @@
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	border:0;
+	outline:0;
+	/*outline:1px solid #00FFFF;*/
+}
+.featured_product {
+	border: 1px solid #d8d8d8;
+	border-radius: 6px;
+	background: #fff;
+	padding: 25px;
+	margin-top:20px;
+	overflow:hidden;
+}
+.img_gallery{
+	list-style:none;
+	text-align:center;
+}
+.right-content .img_gallery li{
+	float:left;	
+	width:33.33%;
+}
+a.product_img{
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #d8d8d8;
+	border-radius: 6px;
+	padding: 9px;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.08);
+	margin-bottom: 13px;
+}
+a.product_img img{
+	width:100%;
+	height:auto;	
+}
+

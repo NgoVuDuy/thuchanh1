@@ -1,0 +1,37 @@
+h2 {
+    color: #559900;
+}
+
+.title {
+    background: #e4e4e4;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.title-send-message {
+    font-weight: bold;
+    padding: 4px 0px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px rgb(202, 202, 202);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form {
+    width: 50%;
+    margin: 4px 0px 20px 0px;
+    height: 20px;
+}
+
+.btn-submit {
+    width: max-content;
+    padding: 6px;
+    margin: 8px 0px;
+}
+.input-form-area {
+    width: 50%;
+    height: 100px;
+    margin-top: 4px;
+}
